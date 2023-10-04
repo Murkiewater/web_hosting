@@ -1,0 +1,57 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.header {
+    margin-top:67px;
+    margin-left: 130px;
+    width: 1040px;
+    height: 40px;
+    display:flex;
+    justify-content: space-between;
+}
+.header__logo {
+    width: 109.412px;
+    height: 36.364px;
+}
+.header__cart {
+    width: 24px;
+    height: 24px;
+}
+.header__goods {
+    width: 20px;
+    height: 20px;
+}
+.main {
+}
+.main__offer {
+}
+.main__title {
+    width: 470px;
+    height: 200px;
+    color: #415167;
+    font-family: Montserrat;
+    font-size: 54px;
+    font-style:normal;
+    font-weight: 900;
+    line-height: 70px;
+    margin-top: 397px;
+    margin-left: 145px;
+}
+.main__background {
+    color: #F9FBFF;
+    background: #C7A17A;
+    z-index:1;
+    opacity: 100;
+}
+.menu {
+}
+.menu__list {
+}
+.menu__list-item {
+}
+.main__imgcentr{
+    position:absolute;
+    left:386px;
+    top:0px;
+}

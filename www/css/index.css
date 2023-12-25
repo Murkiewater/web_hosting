@@ -1,0 +1,879 @@
+:root {
+    --var-body-bg: #191919;
+    --var-body-fc: #fff; 
+    --var-header-bg: #191919;
+}
+
+[bright] {
+    --var-body-bg: #fff;
+    --var-body-fc: #191919;
+    --var-header-bg: #fff;
+}
+
+.body {
+    background-color: var(--var-body-bg);
+}
+.head {
+    background-color: var(--var-body-bg);
+}
+
+.header {
+    display: flex;
+    width: 1440px;
+    height: 119px;
+    padding: 0px 50px;
+    background-color: var(--var-header-bg);
+}
+
+header a {
+    color: var(--var-body-fc);
+}
+
+.header_logo {
+    margin-top: 26px;
+    margin-bottom: 26px;
+    position: absolute;
+}
+
+.menu_list {
+    position: absolute;
+    left: 1150px;
+    display: flex;
+    width: 403px;
+    height: 67px;
+    top: 26px;
+}
+
+.menu li a {
+    font-size: 17px;
+}
+
+.menu li {
+    margin-right: 40px;
+}
+
+.meetjacob {
+    background-color: var(--var-body-bg);
+}
+
+.menu {
+    margin-left: auto;
+}
+
+.body {
+    width: 1440px;
+    height: 913px;
+}
+
+.pwithheadphones {
+    margin-left: 60px;
+    
+}
+
+.lineheadphones {
+    position: absolute;
+    margin-left: 33px;
+    top: 100px;
+}
+
+.takeyoupodcast {
+    color: var(--var-body-fc);
+    font-size: 70px;
+    margin-left: 780px;
+    margin-right: 134px;
+    position: absolute;
+    top: 325px;
+    letter-spacing: 3.2px;
+
+}
+.next {
+    color: var(--var-body-fc);
+    font-size: 75px;
+    margin-left: 780px;
+    margin-right: 134px;
+    position: absolute;
+    top: 485px;
+    letter-spacing: 3.2px;
+}
+.level {
+    color: var(--var-body-fc);
+    background-color: var(--var-body-bg);
+    font-size: 80px;
+    margin-left: 940px;
+    margin-right: 134px;
+    position: absolute;
+    top: 475px;
+    letter-spacing: 3.2px;
+    font-weight: bold;
+}
+
+.listenon {
+    color: var(--var-body-fc);
+    background-color: var(--var-body-bg);
+    margin-left: 792px;
+    margin-right: 335px;
+    position: absolute;
+    font-size: 15px;
+    top: 725px;
+}
+.platforms {
+    margin-left: 792px;
+    margin-right: 335px;
+    position: absolute;
+    font-size: 15px;
+    top: 775px;
+    letter-spacing: 17px;
+}
+
+.latestepisodes {
+    background-color: var(--var-body-bg);
+    color: var(--var-body-fc);
+}
+
+.latestep {
+    color: var(--var-body-fc);
+    font-size: 64px;
+    position: absolute;
+    letter-spacing: 2.88px;
+    left: 65px;
+    background-color: var(--var-body-bg);
+}
+.vallep_lep {
+    border-radius: 6px;
+    width: 178px;
+    height: 51px;
+    position: absolute;
+    top: 1095px;
+    left: 1335px;
+    background: #118DA8;
+}
+
+.text_vallep_lep {
+    color: #ffffff;
+    position: absolute;
+    top: 1095px;
+    left: 1365px;
+    font-size: 17px;
+}
+
+.station_rect {
+    background: #000000;
+    width: 1455px;
+    left: 60px;
+    top: 1201px;
+    position: absolute;
+    border-radius: 32px;
+    height: 545px;
+}
+
+.station {
+    top: 1241px;
+    left: 100px;
+    width: 389px;
+    height: 465px;
+    position: absolute;
+}
+
+.gear_rect {
+    width: 73px;
+    top: 1249px;
+    left: 535px;
+    height: 27px;
+    border-radius: 6px;
+    position: absolute;
+    background: #191919;
+}
+
+.gear_text {
+    width: 41px;
+    font-size: 18px;
+    top: 1234px;
+    left: 554px;
+    position: absolute;
+    color: #ffffff;
+}
+
+.ep_fp {
+    width: 66px;
+    top: 1332px;
+    left: 534px;
+    position: absolute;
+    font-size: 17px;
+    color: #118DA8;
+}
+
+.ep_num3 {
+    width: 66px;
+    top: 1332px;
+    left: 594px;
+    position: absolute;
+    font-size: 17px;
+    color: #118DA8;
+}
+
+.ep_shouldu {
+    width: 701px;
+    position: absolute;
+    top: 1332px;
+    left: 534px;
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 2.56px;
+}
+
+.hardwarewit_text {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.70);
+    position: absolute;
+    top: 1540px;
+    left: 534px;
+}
+
+.vepd_station {
+    border-radius: 6px;
+    width: 178px;
+    height: 51px;
+    position: absolute;
+    top: 1655px;
+    left: 535px;
+    background: #118DA8;
+}
+.text_vepd_station {
+    color: #ffffff;
+    position: absolute;
+    top: 1655px;
+    left: 550px;
+    font-size: 17px;
+}
+
+.mictrks_rect {
+    background: #000000;
+    width: 1455px;
+    left: 60px;
+    top: 1801px;
+    position: absolute;
+    border-radius: 32px;
+    height: 512px;
+}
+
+.micro {
+    width: 389px;
+    height: 432px;
+    top: 1841px;
+    left: 100px;
+    position: absolute;
+
+}
+
+.tiptrks_rect {
+    width: 136px;
+    height: 27px;
+    top: 1857px;
+    left: 535px;
+    border-radius: 6px;
+    position: absolute;
+    background: #191919;
+}
+
+.tiptrks_text {
+    color: #ffffff;
+    position: absolute;
+    top: 1844px;
+    width: 104px;
+    left: 559px;
+    font-size: 17px;
+}
+
+.ep_sp {
+    width: 66px;
+    top: 1926px;
+    left: 534px;
+    position: absolute;
+    font-size: 17px;
+    color: #118DA8;
+}
+.ep_num2 {
+    width: 66px;
+    top: 1926px;
+    left: 594px;
+    position: absolute;
+    font-size: 17px;
+    color: #118DA8;
+}
+
+.mictrks_text {
+    font-size: 64px;
+    color: #ffffff;
+    position: absolute;
+    width: 676px;
+    letter-spacing: 2.56px;
+    top: 1920px;
+    left: 534px;
+}
+
+.vepd_mic {
+    border-radius: 6px;
+    width: 178px;
+    height: 51px;
+    position: absolute;
+    top: 2220px;
+    left: 535px;
+    background: #118DA8;
+}
+.text_vepd_mic {
+    color: #ffffff;
+    position: absolute;
+    top: 2220px;
+    left: 550px;
+    font-size: 17px;
+}
+
+.mic_text {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.70);
+    position: absolute;
+    top: 2125px;
+    left: 534px;
+}
+
+.under200_rect {
+    background: #000000;
+    width: 1455px;
+    left: 60px;
+    top: 2370px;
+    position: absolute;
+    border-radius: 32px;
+    height: 512px;
+}
+
+.gambino {
+    width: 389px;
+    height: 432px;
+    top: 2410px;
+    left: 100px;
+    position: absolute;
+}
+
+.gear_under200_rect {
+    width: 73px;
+    top: 2418px;
+    left: 535px;
+    height: 27px;
+    border-radius: 6px;
+    position: absolute;
+    background: #191919;
+}
+
+.gear_under200_text {
+    width: 41px;
+    font-size: 18px;
+    top: 2403px;
+    left: 554px;
+    position: absolute;
+    color: #ffffff;
+}
+
+.ep_tp {
+    width: 66px;
+    top: 2485px;
+    left: 534px;
+    position: absolute;
+    font-size: 17px;
+    color: #118DA8;
+}
+.ep_num1 {
+    width: 66px;
+    top: 2485px;
+    left: 594px;
+    position: absolute;
+    font-size: 17px;
+    color: #118DA8;
+}
+
+.under200_text {
+    font-size: 64px;
+    color: #ffffff;
+    position: absolute;
+    width: 676px;
+    letter-spacing: 2.56px;
+    top: 2479px;
+    left: 534px;
+}
+
+.thebestmic_text {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.70);
+    position: absolute;
+    top: 2699px;
+    left: 534px;
+}
+
+.vepd_under200 {
+    border-radius: 6px;
+    width: 178px;
+    height: 51px;
+    position: absolute;
+    top: 2792px;
+    left: 535px;
+    background: #118DA8;
+
+}
+.text_vepd_under200 {
+    color: #ffffff;
+    position: absolute;
+    top: 2792px;
+    left: 550px;
+    font-size: 17px;
+}
+
+.jacob {
+    background-color: var(--var-body-bg);
+    position: absolute;
+    width: 650px;
+    height: 743px;
+    border-radius: 12px;
+    top: 3190px;
+    right: 70px;
+}
+
+.arrow_circle {
+    left: 87px;
+    position: absolute;
+    top: 3338px;
+    width: 112px;
+    height: 112px;
+    border-radius: 400px;
+    background: #118DA8;
+}
+
+.arrow {
+    left: 70px;
+    position: absolute;
+    top: 3338px;
+    width: 112px;
+    height: 112px;
+}
+
+.urhost {
+    left: 70px;
+    position: absolute;
+    width: 126px;
+    top: 3450px;
+    color: #118DA8;
+    font-size: 18px;
+}
+
+.jacobname1 {
+    left: 70px;
+    position: absolute;
+    width: 126px;
+    top: 3425px;
+    background-color: var(--var-body-bg);
+    color: #000000;
+    font-size: 65px;
+    letter-spacing: 2.88px;
+}
+
+.jacobname2 {
+    left: 250px;
+    position: absolute;
+    width: 126px;
+    top: 3425px;
+    background-color: var(--var-body-bg);
+    color: #000000;
+    font-size: 65px;
+    letter-spacing: 2.88px;
+}
+
+.jacobbackeng {
+    left: 70px;
+    position: absolute;
+    top: 3563px;
+    background-color: var(--var-body-bg);
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 2.88px;
+}
+
+.jacoblevelup {
+    left: 70px;
+    position: absolute;
+    top: 3642px;
+    background-color: var(--var-body-bg);
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 2.88px;
+}
+
+.newsletter_box {
+    width: 1452px;
+    height: 387px;
+    border-radius: 32px;
+    background: #000000;
+    position: absolute;
+    top: 4134px;
+    right: 70px;
+}
+
+.box_name {
+
+    border-radius: 6px;
+    top: 4194px;
+    right: 130px;
+    position: absolute;
+    z-index:99999999;   
+    body {
+        border-radius: 6px;
+    }
+
+    input {
+        width: 522px;
+        height: 82px;
+        font-size: 24px;
+        background: #191919;
+        color: rgba(255, 255, 255, 0.70);
+        text-indent: 10px;
+
+    }
+}
+
+.box_email {
+    border-radius: 6px;
+    top: 4296px;
+    right: 130px;
+    position: absolute;
+    z-index:99999999;  
+    body {
+        border-radius: 6px;
+    }
+
+    input {
+        width: 522px;
+        height: 82px;
+        font-size: 24px;
+        background: #191919;
+        color: rgba(255, 255, 255, 0.70);
+        text-indent: 10px;
+        border-color: #191919;
+    }
+}
+
+.submit_button {
+    width: 87px;
+    height: 48px;
+    border-radius: 6px;
+    background: #118DA8;
+    position: absolute;
+    top: 4396px;
+    right: 565px;
+    border-color: #118DA8;
+    color: rgba(255, 255, 255, 0.70);
+    z-index: 999999;
+
+}
+
+
+.emailnewsletter_text {
+    font-size: 18px;
+    color: #118DA8;
+    position: absolute;
+    font-size: 18px;
+    top: 4173px;
+    left: 130px;
+}
+
+.subscribe_text {
+    font-size: 72px;
+    letter-spacing: 2.88px;
+    position: absolute;
+    left: 130px;
+    top: 4133px;
+    color: #ffffff;
+}
+
+.name_rect {
+    background: #191919;
+    position: absolute;
+    border-radius: 6px;
+    width: 522px;
+    height: 82px;
+    top: 4194px;
+    right: 130px;
+}
+
+.name_text {
+    color: rgba(255, 255, 255, 0.70);
+    position: absolute;
+    font-size: 24px;
+    top: 4195px;
+    right: 565px;
+}
+
+.email_rect {
+    background: #191919;
+    position: absolute;
+    border-radius: 6px;
+    width: 522px;
+    height: 82px;
+    top: 4296px;
+    right: 130px;
+}
+.email_text {
+    color: rgba(255, 255, 255, 0.70);
+    position: absolute;
+    font-size: 24px;
+    top: 4297px;
+    right: 565px;
+}
+
+.linelow {
+    width: 147px;
+    height: 91px;
+    position: absolute;
+    top: 4456px;
+    left: 28px;
+}
+
+.cantrecommend_cube {
+    width: 473px;
+    height: 321px;
+    border-radius: 32px;
+    background: #000000;
+    position: absolute;
+    right: 1040px;
+    top: 4656px;
+    /* старая версия разметки*/
+}
+
+.stars1 {
+    font-size: 5px;
+    letter-spacing: 5px;
+    left: 50px;
+    top: 54px;
+    position: absolute;
+    
+}
+
+.cantrecommend_text {
+    color: #FFF;
+    font-size: 36px;
+    width: 400px;
+    position: absolute;
+
+}
+.betty {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 24px;
+    position: absolute;
+    top: 171px;
+    width: 400px;
+}
+.bestinbiz_cube {
+    width: 473px;
+    height: 321px;
+    border-radius: 32px;
+    background: #000000;
+    position: absolute;
+    right: 555px;
+    top: 4656px;
+}
+
+.stars2 {
+    font-size: 5px;
+    letter-spacing: 5px;
+    left: 50px;
+    top: 54px;
+    position: absolute;
+}
+.bestinbiz_text {
+    color: #FFF;
+    font-size: 36px;
+    width: 400px;
+    position: absolute;
+}
+.Adam {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 24px;
+    position: absolute;
+    top: 127px;
+    width: 400px;
+}
+.audioknowledge_cube {
+    width: 473px;
+    height: 321px;
+    border-radius: 32px;
+    background: #000000;
+    position: absolute;
+    right: 70px;
+    top: 4656px;
+}
+
+.stars3 {
+    font-size: 5px;
+    letter-spacing: 5px;
+    left: 50px;
+    top: 54px;
+    position: absolute;
+}
+
+.audioknowledge_text {
+    color: #FFF;
+    font-size: 36px;
+    width: 400px;
+    position: absolute;
+}
+.Marcus {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 24px;
+    position: absolute;
+    top: 127px;
+    width: 400px;
+}
+
+.gem_cube {
+    width: 473px;
+    height: 321px;
+    border-radius: 32px;
+    background: #000000;
+    position: absolute;
+    right: 1040px;
+    top: 4990px;
+}
+
+.stars4 {
+    font-size: 5px;
+    letter-spacing: 5px;
+    left: 50px;
+    top: 54px;
+    position: absolute;
+}
+
+.gem_text {
+    color: #FFF;
+    font-size: 36px;
+    width: 400px;
+    top: 7px;
+    position: absolute;
+}
+
+.jessica {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 24px;
+    position: absolute;
+    top: 117px;
+    width: 400px;
+}
+
+.note_cube {
+    width: 473px;
+    height: 321px;
+    border-radius: 32px;
+    background: #000000;
+    position: absolute;
+    right: 555px;
+    top: 4990px;
+}
+
+.stars5 {
+    font-size: 5px;
+    letter-spacing: 5px;
+    left: 50px;
+    top: 54px;
+    position: absolute;
+}
+
+.note_text {
+    color: #FFF;
+    font-size: 36px;
+    top: 7px;
+    width: 400px;
+    position: absolute;
+}
+
+.scott {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 24px;
+    position: absolute;
+    top: 117px;
+    width: 400px;
+}
+
+.listenting_cube {
+    width: 473px;
+    height: 321px;
+    border-radius: 32px;
+    background: #000000;
+    position: absolute;
+    right: 70px;
+    top: 4990px;
+}
+
+.stars6 {
+    font-size: 5px;
+    letter-spacing: 5px;
+    left: 50px;
+    top: 54px;
+    position: absolute;
+}
+
+.listening_text { 
+    color: #FFF;
+    font-size: 36px;
+    width: 400px;
+    top: 7px;
+    position: absolute;
+}
+
+.steven {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 24px;
+    position: absolute;
+    top: 190px;
+    width: 400px;
+}
+
+.logo_foot {
+    width: 224px;
+    height: 46px;
+    position: absolute;
+    top: 5490px;
+    left: 70px;
+}
+
+.pnglogos {
+    font-size: 10px;
+    letter-spacing: 10px;
+    left: 70px;
+    top: 5553px;
+    position: absolute;
+}
+
+.menu_up {
+    font-size: 18px;
+    color: var(--var-body-fc);
+    width: 49px;
+    top: 5475px;
+    left: 603px;
+    position: absolute;
+}
+
+.menu_2 {
+    font-size: 18px;
+    color: var(--var-body-fc);
+    width: 159px;
+    top: 5475px;
+    left: 833px;
+    position: absolute;
+}
+
+.slide1 {
+    background-color: var(--var-body-bg);
+}
+
+.plat_pad {
+    position: absolute;
+    font-size: 15px;
+    letter-spacing: 17px;
+    top: 5495px;
+    left: 1033px;
+}
